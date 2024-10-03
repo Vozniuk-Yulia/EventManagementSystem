@@ -1,0 +1,39 @@
+﻿@model EventManagementSystem.Models.LoginViewModel
+
+
+@{
+    Layout = "_Layout";
+}
+
+<main>
+    <div class="loginContainer">
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            <form asp-controller="Account" asp-action="Login" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Username)
+                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password)
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group form-check">
+                    @Html.CheckBoxFor(m => m.RememberMe, new { @class = "form-check-input" })
+                    @Html.LabelFor(m => m.RememberMe, new { @class = "form-check-label" })
+                </div>
+
+                <button type="submit" class="btn btn-primary">Увійти</button>
+                <div class="form-group">
+                    <p>Ще не зареєстровані? <a href="@Url.Action("Register", "Account")">Зареєструватися</a></p>
+                </div>
+            </form>
+        }
+    </div>
+</main>

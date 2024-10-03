@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EventManagementSystem</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/venobox/venobox.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/EventManagementSystem.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+    @* <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EventManagementSystem</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> *@
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+
+                <a href="#intro" class="scrollto"><img src="~/img/logo.png" alt="" title=""></a>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="~/#intro">Головна</a></li>
+                    <li><a href="~/#formats">Формати</a></li>
+                    <li><a href="~/#categories">Категорії</a></li>
+                    <li><a href="~/#faq">Часті запитання</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li>@Html.ActionLink("Події", "Index", "Events")</li>
+                            <li>@Html.ActionLink("Спікери", "Index", "Speakers")</li>
+                            <li>@Html.ActionLink("Локації", "Index", "Locations")</li>
+                        }
+                        else if(User.IsInRole("User"))
+                        {
+                            <li>@Html.ActionLink("Події", "Index", "UserEvents")</li>
+                            <li>@Html.ActionLink("Розклад", "ListEvents", "UserEvents")</li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-action="Profile" asp-controller="Account" >
+                                <img src="~/img/iconsUser.png" alt="User Icon" style="width:24px;height:24px;" />
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="nav-link btn btn-link p-0" style="background: none; border: none;">
+                                    <img src="~/img/iconsLogOut.png" alt="User Icon" style="width:24px;height:24px;" />
+                                </button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="log-in"><a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Увійти</a></li>
+
+                    }
+                </ul>
+            </nav>
+        </div>
+    </header>
+  
+  
+     @RenderBody()
+
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <img src="img/logo.png" alt="TheEvenet">
+                        <p>THE EVENT - Ваш надійний партнер у організації та керуванні подіями. Зручний інтерфейс для адміністраторів та учасників, повний контроль і широкі можливості. Приєднуйтесь до нас для безпроблемного управління подіями!</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Посилання</h4>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> <a href="#">Головна</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="#formats">Формати</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Посилання</h4>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> <a href="#categories">Категорії</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="#faq">Часті запитання</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>НАШІ КОНТАКТИ</h4>
+                        <p>
+                            <strong>Телефон:</strong> +380998765432<br>
+                            <strong>Пошта:</strong> theevent@gmail.com<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+            </div>
+
+        </div>
+    </footer>
+    
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery-migrate.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/superfish/hoverIntent.js"></script>
+    <script src="~/lib/superfish/superfish.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/venobox/venobox.min.js"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

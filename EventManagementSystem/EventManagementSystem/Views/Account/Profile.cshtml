@@ -1,0 +1,20 @@
+﻿@model EventManagementSystem.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "_Layout";
+}
+
+<main class="container mt-5">
+    <h2 class="mb-4">Профіль</h2>
+    <div class="card">
+        <div class="card-body">
+
+            <p class="card-text"><strong>Прізвище:</strong> @Model.Surname</p>
+            <p class="card-text"><strong>Ім'я:</strong> @Model.Name</p>
+            <p class="card-text"><strong>По-батькові:</strong> @Model.Middlename</p>
+            <p class="card-text"><strong>Пошта:</strong> @Model.Email</p>
+            <a asp-action="EditProfile" class="btn btn-primary">Редагувати</a>
+        </div>
+    </div>
+</main>

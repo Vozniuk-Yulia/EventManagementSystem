@@ -1,0 +1,63 @@
+﻿@model EventManagementSystem.Models.Event
+
+@{
+    ViewData["Title"] = "Деталі події";
+    Layout = "_Layout";
+}
+
+<main class="container mt-5">
+    <div class="mainContainer">
+        <h2 class="text-center mb-4">@Model.Title</h2>
+
+        <div class="row">
+            <!-- Location Photo -->
+            <div class="col-md-6">
+                <img src="@Model.Location.Photo" alt="Location Image" class="img-fluid w-100 rounded" />
+            </div>
+
+            <div class="col-md-6">
+                <h3>Опис події</h3>
+                <p>@Model.Description</p>
+
+                <h4>Локація</h4>
+                <p>@Model.Location.Name</p>
+
+                <h4>Кількість місць</h4>
+                <p>@Model.MaxAttendees</p>
+
+                <h4>Дата та час</h4>
+                <p>Початок: @Model.StartDateTime.ToString("dd.MM.yyyy HH:mm")</p>
+                <p>Завершення: @Model.EndDateTime.ToString("dd.MM.yyyy HH:mm")</p>
+                <h4>Ціна квитка</h4>
+                <p>@Model.Tickets.FirstOrDefault().Price</p>
+
+                @if (Model.MaxAttendees > Model.Users.Count)
+                {
+                    <!-- Replace the <a> tag with a form for registration -->
+                    <form asp-action="RegisterForEvent" asp-controller="UserEvents" method="post">
+                        <input type="hidden" name="eventId" value="@Model.Id" />
+                        <button type="submit" class="btn btn-primary btn-lg mt-4">Зареєструватися</button>
+                    </form>
+                }
+                else
+                {
+                    <p class="text-danger mt-4">Місць більше немає</p>
+                }
+            </div>
+        </div>
+    </div>
+</main>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}

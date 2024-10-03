@@ -1,0 +1,1122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\portfolio\\EventManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\eventsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\eventsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\usereventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\usereventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\speakerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\shedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\shedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\userevents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\userevents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\userevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\userevents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\userevents\\listevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\userevents\\listevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\speakers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\speakers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\format.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\format.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\speaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\speakers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\speakers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\speakers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\speakers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\shedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\shedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\eventmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\eventmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\img\\iconsuser.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\img\\iconsuser.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240803191438_addemptylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240803191438_addemptylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\venobox\\venobox.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\venobox\\venobox.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240716174908_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240716174908_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240716175523_addticketstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240716175523_addticketstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240731200628_addformatandcategoryidtoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240731200628_addformatandcategoryidtoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240803173626_addphototolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240803173626_addphototolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240807203802_addimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240807203802_addimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240808170242_addchangetolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240808170242_addchangetolocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240811174944_changeeventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240811174944_changeeventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|d:\\portfolio\\eventmanagementsystem\\eventmanagementsystem\\migrations\\20240815181640_changeeventpartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7334BE39-58FD-4DB7-A078-49717C301146}|EventManagementSystem\\EventManagementSystem.csproj|solutionrelative:eventmanagementsystem\\migrations\\20240815181640_changeeventpartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T17:39:42.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventSearchViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\EventSearchViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\EventSearchViewModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\EventSearchViewModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\EventSearchViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:16:06.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Location.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Location.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:26:01.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\EditProfile.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Account\\EditProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T18:41:33.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAUwGgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:02:39.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Category.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Category.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:24:05.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:25:01.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EventManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:27:30.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserEventsController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\UserEventsController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\UserEventsController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\UserEventsController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\UserEventsController.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAwwLUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T20:19:44.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpeakersController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\SpeakersController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\SpeakersController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\SpeakersController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\SpeakersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T20:45:54.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SheduleController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\SheduleController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\SheduleController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\SheduleController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\SheduleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T17:13:50.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\LocationsController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\LocationsController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T20:30:04.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:10:59.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventManagementSystem\\Controllers\\EventsController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAwwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:29:34.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Events\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Events\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T21:11:41.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\UserEvents\\Details.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\Details.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\UserEvents\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T19:06:03.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Ticket.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Ticket.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:26:46.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Event.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Event.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Event.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:25:40.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Events\\Details.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Events\\Details.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwGEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T20:05:24.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Events\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Events\\Create.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAYwGsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T19:40:58.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T19:50:00.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAALEGAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T19:25:06.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\UserEvents\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\UserEvents\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T17:09:48.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ListEvents.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\ListEvents.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\UserEvents\\ListEvents.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\UserEvents\\ListEvents.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\UserEvents\\ListEvents.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T20:14:51.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Speakers\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Create.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Speakers\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T20:48:06.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Format.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Format.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Format.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Format.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Format.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:24:38.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Speaker.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Speaker.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\Speaker.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\Speaker.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\Speaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:26:23.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T21:02:04.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:36:23.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Speakers\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Edit.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Speakers\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T20:48:30.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T18:33:18.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Shedule\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shedule\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Shedule\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T17:14:11.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Speakers\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Speakers\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Speakers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T20:49:42.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Locations\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Locations\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T21:20:59.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T18:11:49.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Locations\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Create.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Locations\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T18:24:32.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Locations\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Locations\\Edit.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Locations\\Edit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T18:34:09.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T21:06:28.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T20:26:43.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Program.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Program.cs",
+              "RelativeToolTip": "EventManagementSystem\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwDUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:31:02.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwCIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T20:04:13.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20240815181640_ChangeEventPartModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240815181640_ChangeEventPartModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240815181640_ChangeEventPartModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240815181640_ChangeEventPartModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240815181640_ChangeEventPartModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:16:40.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20240811174944_ChangeEventModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240811174944_ChangeEventModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240811174944_ChangeEventModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240811174944_ChangeEventModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240811174944_ChangeEventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:49:45.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventManagementSystem.csproj",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\EventManagementSystem.csproj",
+              "RelativeDocumentMoniker": "EventManagementSystem\\EventManagementSystem.csproj",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\EventManagementSystem.csproj",
+              "RelativeToolTip": "EventManagementSystem\\EventManagementSystem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T17:27:05.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20240808170242_AddChangeToLocation.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240808170242_AddChangeToLocation.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240808170242_AddChangeToLocation.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240808170242_AddChangeToLocation.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240808170242_AddChangeToLocation.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:02:42.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20240807203802_AddImageModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240807203802_AddImageModel.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240807203802_AddImageModel.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240807203802_AddImageModel.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240807203802_AddImageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:38:03.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "iconsUser.png - PNG [30x30, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\img\\iconsUser.png",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\img\\iconsUser.png",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\img\\iconsUser.png - PNG [30x30, 32 bit, PNG]",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\img\\iconsUser.png - PNG [30x30, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-05T18:55:00.494Z",
+              "EditorCaption": " - PNG [30x30, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "logo.png - PNG [402x80, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\img\\logo.png",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\img\\logo.png",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\img\\logo.png - PNG [402x80, 32 bit, PNG]",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\img\\logo.png - PNG [402x80, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-05T18:54:56.976Z",
+              "EditorCaption": " - PNG [402x80, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T20:30:27.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T18:33:13.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240803191438_AddEmptyList.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240803191438_AddEmptyList.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240803191438_AddEmptyList.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240803191438_AddEmptyList.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240803191438_AddEmptyList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:14:38.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20240803173626_AddPhotoToLocation.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240803173626_AddPhotoToLocation.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240803173626_AddPhotoToLocation.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240803173626_AddPhotoToLocation.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240803173626_AddPhotoToLocation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T17:36:26.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240731200628_AddFormatAndCategoryIDToEvent.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240731200628_AddFormatAndCategoryIDToEvent.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240731200628_AddFormatAndCategoryIDToEvent.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240731200628_AddFormatAndCategoryIDToEvent.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240731200628_AddFormatAndCategoryIDToEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T20:06:28.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T21:01:18.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "EventManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T19:41:41.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "owl.carousel.min.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-23T19:45:53.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EventManagementSystem\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAABRwB0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T17:30:17.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "jquery-migrate.min.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery-migrate.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAADzHgAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-22T20:17:48.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-19T20:22:23.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-19T20:22:26.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-19T20:25:03.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "venobox.min.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\venobox\\venobox.min.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\venobox\\venobox.min.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\venobox\\venobox.min.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\venobox\\venobox.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-19T20:32:54.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\js\\main.js",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAqwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-19T20:35:42.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAF0jAAAAAAAAAAAgwIUjAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T19:37:41.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "EventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAMklAAAAAAAAAAAgwOUlAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-19T19:37:22.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240716175523_AddTicketsTable.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240716175523_AddTicketsTable.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240716175523_AddTicketsTable.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240716175523_AddTicketsTable.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240716175523_AddTicketsTable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:55:24.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EventManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\appsettings.json",
+              "RelativeToolTip": "EventManagementSystem\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T17:30:29.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240716174908_InitialCreate.cs",
+              "DocumentMoniker": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240716174908_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem\\Migrations\\20240716174908_InitialCreate.cs",
+              "ToolTip": "D:\\portfolio\\EventManagementSystem\\EventManagementSystem\\Migrations\\20240716174908_InitialCreate.cs",
+              "RelativeToolTip": "EventManagementSystem\\Migrations\\20240716174908_InitialCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T17:49:09.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

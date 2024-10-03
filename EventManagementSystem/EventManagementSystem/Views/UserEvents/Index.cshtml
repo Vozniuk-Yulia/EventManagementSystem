@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EventManagementSystem.Models.Event>
+
+@{
+    ViewData["Title"] = "Search Events";
+    Layout = "_Layout";
+}
+
+<main class="container mt-5">
+    <div class="mainContainer">
+        <h2 class="text-center mb-4">Пошук подій</h2>
+
+        <!-- Search Form -->
+        <div class="d-flex justify-content-center mb-4">
+            @using (Html.BeginForm("Search", "UserEvents", FormMethod.Get, new { @class = "w-100" }))
+            {
+                <div class="form-row">
+                    <!-- Title Search -->
+                    <div class="form-group col-md-3">
+                        <input type="text" name="searchTerm" class="form-control" placeholder="Введіть назву події" />
+                    </div>
+
+                    <!-- Format Dropdown -->
+                    <div class="form-group col-md-2">
+                        @Html.DropDownList("format", ViewData["Formats"] as SelectList, "Всі формати", new { @class = "form-control" })
+                    </div>
+
+                    <!-- Category Dropdown -->
+                    <div class="form-group col-md-2">
+                        @Html.DropDownList("category", ViewData["Categories"] as SelectList, "Всі категорії", new { @class = "form-control" })
+                    </div>
+
+                    <!-- Start Date -->
+                    <div class="form-group col-md-2">
+                        <input type="date" name="startDate" class="form-control" placeholder="Дата початку" />
+                    </div>
+
+                    <!-- End Date -->
+                    <div class="form-group col-md-2">
+                        <input type="date" name="endDate" class="form-control" placeholder="Дата завершення" />
+                    </div>
+
+                    <!-- Search Button -->
+                    <div class="form-group col-md-1">
+                        <button type="submit" asp-action="Search" asp-controller="UserEvents"  class="btn btn-primary btn-block">Пошук</button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Displaying Search Results -->
+        @if (Model != null && Model.Any())
+        {
+            <div class="row">
+                @foreach (var eventItem in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">@eventItem.Title</h5>
+                                <p class="card-text text-truncate">@eventItem.Description</p>
+                                <p class="card-text"><small class="text-muted">Початок: @eventItem.StartDateTime.ToString("dd.MM.yyyy HH:mm")</small></p>
+                                <p class="card-text"><small class="text-muted">Завершення: @eventItem.EndDateTime.ToString("dd.MM.yyyy HH:mm")</small></p>
+                                <p class="card-text"><small class="text-muted">Локація: @eventItem.Location.Name</small></p>
+                                <p class="card-text"><small class="text-muted">Категорія: @eventItem.Category.ToString()</small></p>
+                                <p class="card-text"><small class="text-muted">Формат: @eventItem.Format.ToString()</small></p>
+                                <p class="card-text"><small class="text-muted">Ціна квитка: @eventItem.Tickets.FirstOrDefault().Price.ToString()</small></p>
+                                <a asp-action="Details" asp-controller="UserEvents" asp-route-id="@eventItem.Id" class="btn btn-info btn-sm">Переглянути</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+   
+</main>

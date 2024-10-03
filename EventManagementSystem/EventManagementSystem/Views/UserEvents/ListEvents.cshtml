@@ -1,0 +1,61 @@
+﻿@model EventManagementSystem.Models.EventSearchViewModel
+
+@{
+    ViewBag.Title = "Мої Події";
+}
+<main class="container mt-5">
+    <div class="mainContainer">
+
+        <h2>Мої Події</h2>
+
+        <!-- Форма з використанням HtmlHelper -->
+        @using (Html.BeginForm("ListEvents", "UserEvents", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelFor(model => model.StartDate, "Початкова дата:")
+                @Html.TextBoxFor(model => model.StartDate, new { @class = "form-control", @type = "date", required = "required" })
+                @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.EndDate, "Кінцева дата:")
+                @Html.TextBoxFor(model => model.EndDate, new { @class = "form-control", @type = "date", required = "required" })
+                @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-primary">Показати події</button>
+        }
+
+        @if (ViewBag.UserEvents != null && ((IEnumerable<EventManagementSystem.Models.Event>)ViewBag.UserEvents).Any())
+        {
+            <table class="table mt-4">
+                <thead>
+                    <tr>
+                        <th>Назва</th>
+                        <th>Опис</th>
+                        <th>Дата початку</th>
+                        <th>Дата закінчення</th>
+                        <th>Місце</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var eventItem in ViewBag.UserEvents)
+                    {
+                        <tr>
+                            <td>@eventItem.Title</td>
+                            <td>@eventItem.Description</td>
+                            <td>@eventItem.StartDateTime.ToString("g")</td>
+                            <td>@eventItem.EndDateTime.ToString("g")</td>
+                            <td>@eventItem.Location?.Name</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else if (ViewBag.UserEvents != null)
+        {
+            <div class="alert alert-info mt-4">Немає зареєстрованих подій у вибраному діапазоні.</div>
+        }
+    </div>
+</main>
+

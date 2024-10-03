@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EventManagementSystem.Models.Event>
+
+@{
+    ViewData["Title"] = "Events";
+    Layout = "_Layout";
+}
+<main class="container mt-5">
+    <div class="mainContainer">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="text-light">Events</h1>
+            <a href="@Url.Action("Create", "Events")" class="btn btn-primary">Додати подію</a>
+        </div>
+
+        @foreach (var evt in Model)
+        {
+            <article class="postcard bg-black">
+              
+                <div class="postcard__text">
+                    <h1 class="postcard__title yellow"><a href="#">@evt.Title</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="@evt.StartDateTime.ToString("yyyy-MM-ddTHH:mm:ss")">
+                            <i class="fas fa-calendar-alt mr-2"></i>@evt.EndDateTime.ToString("ddd, MMM d yyyy")
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">@evt.Description</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item">@evt.Category</li>
+                        <li class="tag__item play yellow">
+                            <a asp-action="Details" asp-route-id="@evt.Id">Деталі</a>
+                        </li>
+                        <li class="tag__item delete">
+                            <form method="post" asp-action="Delete" asp-route-id="@evt.Id" onsubmit="return confirm('Ви впевнені, що хочете видалити цю подію?');">
+                                <button type="submit" class="btn" style="padding: 0; background: none; border: none;">
+                                    <i class="fas fa-trash-alt text-danger"></i> Видалити
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        }
+    </div>
+</main>

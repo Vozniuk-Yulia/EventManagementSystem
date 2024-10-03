@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EventManagementSystem.Models.Speaker>
+
+@{
+    ViewData["Title"] = "Speakers";
+    Layout = "_Layout";
+}
+}
+
+
+<main class="container mt-5">
+    <div class="mainContainer">
+        <h2>Спікери</h2>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">ПІБ</th>
+                        <th scope="col">Біо</th>
+                        <th scope="col">Дії</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     @foreach (var speaker in Model)
+                    {
+                    <tr>
+                            <td>@speaker.Surname @speaker.Name @speaker.Middlename</td>
+                    <td>@speaker.Bio</td>
+                    <td>
+             
+                    <a asp-action="Edit" asp-route-id="@speaker.Id" class="btn btn-warning btn-sm me-1">Редагувати</a>
+                     <a asp-action="Delete" asp-route-id="@speaker.Id" class="btn btn-danger btn-sm">Видалити</a>
+                    </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <p>
+            <a asp-action="Create" class="btn btn-primary mb-3">Додати</a>
+        </p>
+    </div>
+   
+</main>

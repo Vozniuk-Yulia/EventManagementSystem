@@ -1,0 +1,109 @@
+﻿@model EventManagementSystem.Models.Event
+
+@{
+    ViewData["Title"] = "Create Event";
+    Layout = "_Layout";
+}
+
+<main class="d-flex justify-content-center">
+    <div class="mainContainer col-md-8 mt-4">
+        @using (Html.BeginForm("Create", "Events", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            <h2>Створення події</h2>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group row">
+                @Html.LabelFor(m => m.Title,"Назва", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.Description, "Опис", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Description, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.StartDateTime, "Дата початку", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.StartDateTime, "{0:yyyy-MM-ddTHH:mm}", new { @class = "form-control", type = "datetime-local" })
+                    @Html.ValidationMessageFor(m => m.StartDateTime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.EndDateTime, "Дата завершення", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.EndDateTime, "{0:yyyy-MM-ddTHH:mm}", new { @class = "form-control", type = "datetime-local" })
+                    @Html.ValidationMessageFor(m => m.EndDateTime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.MaxAttendees, "Максимум учасників", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.MaxAttendees, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.MaxAttendees, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.IsLimitedAttendance, "Обмежена відвідуваність", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.CheckBoxFor(m => m.IsLimitedAttendance, new { @class = "form-check-input" })
+                    @Html.ValidationMessageFor(m => m.IsLimitedAttendance, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.OnlineLink, "Посилання", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.OnlineLink, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.OnlineLink, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.LocationID, "Локація", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.LocationID, (SelectList)ViewData["Locations"], new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.LocationID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.CategoryID, "Категорія", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.CategoryID, ViewBag.Categories as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CategoryID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.FormatID, "Формат", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.FormatID, ViewBag.Formats as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.FormatID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.Tickets.FirstOrDefault().Price, "Ціна квитка", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Tickets.FirstOrDefault().Price, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Tickets.FirstOrDefault().Price, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row">
+                @Html.LabelFor(m => m.Speakers, "Спікер", new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.ListBoxFor(m => m.Speakers, ViewBag.Speakers as MultiSelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Speakers, "", new { @class = "text-danger" })
+                </div>
+                
+            </div>
+            <div class="form-group row">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Створити" class="btn btn-primary" />
+
+                </div>
+            </div>
+        }
+    </div>
+</main>
